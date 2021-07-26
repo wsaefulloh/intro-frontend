@@ -1,0 +1,175 @@
+@font-face {
+	src: url("../asset/Metropolis Font family/Metropolis-Regular.otf");
+	font-family: metropolis;
+}
+
+body {
+    font-family: metropolis;
+    font-size: 12px;
+    margin: 0;
+    align-items: center;
+}
+
+.box-form {
+    position: relative;
+    margin: auto auto;
+    width: 450px;
+    height: 500px;
+    text-align: center;
+    margin: 5% auto;
+    padding: 5px;
+}
+
+.logo-blanja {
+    position: relative;
+    top: 10px;
+}
+
+.title-desc {
+    position: relative;
+    top: 35px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: #222222;
+}
+
+.button-setting {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 45pt;
+}
+
+.btn-cust {
+    width: 123px;
+    height: 48px;
+    background: #db3022;
+    border: 1px solid #db3022;
+    border-radius: 4px 0px 0px 4px;
+    box-sizing: border-box;
+    font-family: metropolis;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn-seller {
+    width: 123px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid #9b9b9b;
+    border-left: none;
+    border-radius: 0px 4px 4px 0px;
+    background: #ffffff;
+    font-family: metropolis;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9b9b9b;
+    cursor: pointer;
+}
+
+.form-login {
+    position: relative;
+    top: 80px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input-email {
+    width: 400px;
+    height: 48px;
+    padding: 0px 20px;
+    border: 1px solid #9b9b9b;
+    box-sizing: border-box;
+    font-family: metropolis;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9b9b9b;
+}
+
+.input-pass {
+    width: 400px;
+    height: 48px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    border: 1px solid #9b9b9b;
+    box-sizing: border-box;
+    font-family: metropolis;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9b9b9b;
+}
+
+.text-forgot {
+    position: relative;
+    top: 85px;
+    text-align: right;
+    padding: 0px 25px;
+}
+
+.link-text-forgot {
+    font-family: metropolis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #db3022;
+    text-decoration: none;
+}
+
+.primary {
+    position: relative;
+    top: 90px;
+}
+
+.submit-button {
+    width: 400px;
+    height: 48px;
+    border-radius: 25px;
+    background: #db3022;
+    border: 0;
+    box-sizing: border-box;
+    font-family: metropolis;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+.text-tokped {
+    position: relative;
+    top: 100px;
+    font-family: metropolis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #222222;
+}
+
+.link-text-register {
+    font-family: metropolis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #db3022;
+    text-decoration: none;
+}
