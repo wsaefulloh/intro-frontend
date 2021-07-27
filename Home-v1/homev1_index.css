@@ -112,3 +112,11 @@ body {
     color: #9b9b9b;
     margin-left: 5px;
 }
+
+.box-head-title {
+    background: chartreuse;
+    position: relative;
+    top: 120px;
+    padding: 0;
+    margin: auto;
+}

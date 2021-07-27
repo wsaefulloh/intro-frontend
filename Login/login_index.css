@@ -12,11 +12,11 @@ body {
 
 .box-form {
     position: relative;
+    top: 100px;
     margin: auto auto;
     width: 450px;
     height: 500px;
     text-align: center;
-    margin: 5% auto;
     padding: 5px;
 }
 
