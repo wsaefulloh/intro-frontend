@@ -6,7 +6,9 @@
 body {
     font-family: metropolis;
     font-size: 12px;
-    height: 8000pt;
+    height: 8000px;
+    margin: 0;
+    padding: 0;
 }
 
 .box-head {
@@ -114,9 +116,50 @@ body {
 }
 
 .box-head-title {
-    background: chartreuse;
     position: relative;
     top: 120px;
+}
+
+.box-head-main {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.head-column {
+    max-width: fit-content;
+}
+
+.box-main-home {
     padding: 0;
     margin: auto;
+    margin-top: 20px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.text-title {
+    margin-top: 50px;
+    text-align: start;
+    font-family: metropolis;
+    font-weight: bold;
+    font-size: 34px;
+    color: #222222;
+}
+
+.desc-title {
+    text-align: start;
+    font-family: metropolis;
+    font-weight: normal;
+    font-size: 12px;
+    color: #9b9b9b;
+}
+
+.box-category {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
 }
