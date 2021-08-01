@@ -16,4 +16,4 @@
 
 ## View Demo
 
-You can see demo this project [here](https://lucid-franklin-8aa3f7.netlify.app/)
+You can see demo this project [here](https://serene-hugle-6fbe37.netlify.app/)
