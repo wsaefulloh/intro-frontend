@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
+    <title>Blanja - Login</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="login.css">
   </head>
@@ -21,7 +21,7 @@
               </div>
 
               <div class="d-none d-md-block my-5 text-center">
-                <a href="#">
+                <a href="../home.html">
                   <img class="mx-auto" src="../asset/logo.png" alt="">
                 </a>
                 <h6 class="my-0 mx-auto mt-4 text-bold">Please login with your account</h6>
@@ -36,18 +36,18 @@
                 </a>
               </div>
 
-              <form action="" class="row mt-4 g-3 needs-validation" novalidate>
+              <form action="../index.html" class="row mt-4 g-3 needs-validation" validate>
                 <div class="col-12 text-center">
-                  <input class="col-10 form-input text-reguler" type="text" id="email" required placeholder="Email" autocomplete="off">
+                  <input class="col-10 form-input text-reguler" type="text" id="email" placeholder="Email" autocomplete="off" required>
                 </div>
                 <div class="col-12 text-center">
-                  <input class="col-10 form-input text-reguler" type="password" id="password" required placeholder="Password" autocomplete="off">
+                  <input class="col-10 form-input text-reguler" type="password" id="password" placeholder="Password" autocomplete="off" required>
                 </div>
                 <div class="col-12 text-end">
                   <a href="#" class="col-10 d-block mx-auto text-reguler text-forgot">Forgot password?</a>
                 </div>
-                <div class="col-10 text-center text-submit mx-auto align-items-center d-flex">
-                  <p class="col-8 text-reguler mx-auto">PRIMARY</p>
+                <div class="col-12 text-center mx-auto align-items-center d-flex">
+                  <button class="col-10 text-submit text-reguler mx-auto" type="submit">PRIMARY</button>
                 </div>
                 <div class="col-12 text-center">
                   <p class="col-10 mx-auto text-reguler">Don't have a Blanja account? <a class="text-reguler text-forgot" href="#">Register</a></p>
