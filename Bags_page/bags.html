@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./bags.css" rel="stylesheet">
+    <title>Bags/title>
+</head>
+
+<body>
+    <header>
+        <nav class="bg-light d-md-block d-none navbar shadow-sm fixed-top">
+            <div class="container justify-content-between align-items-center">
+                <a class="navbar-brand" href="../home.html">
+                    <img src="../asset/logo.png" alt="" height="35px" width="auto">
+                </a>
+                <form class="col-6 text-end" action="">
+                    <input type="text" class="search-box text-reguler" placeholder="Search" />
+                    <button class="sort">
+                        <img src="../asset/sort.png" />
+                    </button>
+                </form>
+                <div class="col-4 text-end">
+                    <a href="My-Bag/mybag_index.html">
+                        <img class="me-3" src="../asset/shopping chart.png" />
+                    </a>
+                    <a href="My-Bag/mybag_index.html">
+                        <img class="me-3" src="../asset/notif.png" />
+                    </a>
+                    <a href="My-Bag/mybag_index.html">
+                        <img class="me-3" src="../asset/mail.png" />
+                    </a>
+                    <a href="My-Bag/mybag_index.html">
+                        <img class="me-3" src="../asset/Mask Group.png" />
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="bg-light d-md-none d-block navbar shadow-sm fixed-top">
+            <div class="container justify-content-center align-items-center">
+                <a class="navbar-brand" href="./home.html">
+                    <img src="../asset/logo.png" alt="" height="35px" width="auto">
+                </a>
+            </div>
+        </nav>
+
+        <nav class="d-md-none d-block navbar bg-light shadow-sm navbar-bottom fixed-bottom">
+            <ul class="nav d-flex justify-content-around">
+                <li>
+                    <a class="d-flex flex-column text-reguler text-center align-items-center" href="">
+                        <img class="nav-icon" src="../asset/Mockup Web (4)/home icon/inactive.png" alt="">
+                        <span class="nav-title">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex flex-column text-reguler text-center align-items-center" href="">
+                        <img class="nav-icon" src="../asset/Mockup Web (3)/shop icon/inactive.png" alt="">
+                        <span class="nav-title">Shop</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex flex-column text-reguler text-center align-items-center" href="">
+                        <img class="nav-icon" src="../asset/Mockup Web (2)/shopping_bag icon/inactive.svg" alt="">
+                        <span class="nav-title">Bag</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex flex-column text-reguler text-center align-items-center" href="">
+                        <img class="nav-icon" src="../asset/Mockup Web (5)/heart icon/inactive.png" alt="">
+                        <span class="nav-title">Favorites</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex flex-column text-reguler text-center align-items-center" href="">
+                        <img class="nav-icon" src="../asset/Mockup Web (6)/profile icon/account_circle.png" alt="">
+                        <span class="nav-title">Profile</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- title -->
+        <section class="container">
+            <div class="my-3">
+                <div class="my-3">
+                    <h3 class="text-bold m-0">My Bags</h3>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="row justify-content-between">
+                <!-- bag product -->
+                <section class="col-8 align-items-center">
+                    <div class="row align-items-center box-check">
+                        <div class="col-1 text-center d-flex align-items-center">
+                            <input class="w-100 align-items-center" type="checkbox" checked />
+                        </div>
+
+                        <div class="col text-start text-reguler">
+                            <p>Select all items <span class="text-span">(2 items selected)</span></p>
+                        </div>
+
+                        <div class="col-2 text-end pe-4 ps-0 text-reguler text-danger">
+                            <p>Delete</p>
+                        </div>
+                    </div>
+
+                    <!-- product add bag -->
+
+                    <div class="row align-items-center box-check-items py-3 align-content-between">
+                        <div class="col-1 text-center d-flex align-items-center">
+                            <input class="w-100 align-items-center" type="checkbox" checked />
+                        </div>
+
+                        <div class="col d-flex align-items-center">
+                            <img src="../asset/men formal suit.png" />
+                            <div class="mx-4">
+                                <p class="text-reguler">Men's formal suit</p>
+                                <p class="desc-product text-reguler">Zalora Cloth</p>
+                            </div>
+                        </div>
+
+                        <div class="icon-count">
+                            <div class="d-flex icon-minus align-items-center align-content-center text-center">
+                                <p class="align-items-center align-content-center text-center icon">-</p>
+                            </div>
+                        </div>
+
+                        <div class="icon-count align-items-center align-content-center text-center">
+                            <p>
+                                1
+                            </p>
+                        </div>
+
+                        <div class="icon-count align-items-center align-content-center text-center">
+                            <div class="d-flex icon-plus align-items-center align-content-center text-center">
+                                <p class="align-items-center align-content-center text-center icon">+</p>
+                            </div>
+                        </div>
+
+                        <div class="col-3 pe-4 ps-0 text-end">
+                            <small class="text-bold m-0 p-0">Rp. 149900</small>
+                        </div>
+                    </div>
+
+                    <!-- product add bag -->
+
+                    <div class="row align-items-center box-check-items py-3">
+                        <div class="col-1 text-center d-flex align-items-center">
+                            <input class="w-100 align-items-center" type="checkbox" checked />
+                        </div>
+
+                        <div class="col d-flex align-items-center">
+                            <img src="../asset/men jacket jeans.png" />
+                            <div class="mx-4">
+                                <p class="text-reguler">Men's jacket jeans</p>
+                                <p class="desc-product">Zalora Cloth</p>
+                            </div>
+                        </div>
+
+                        <div class="icon-count">
+                            <div class="d-flex icon-minus align-items-center align-content-center text-center">
+                                <p class="align-items-center align-content-center text-center icon">-</p>
+                            </div>
+                        </div>
+
+                        <div class="icon-count align-items-center align-content-center text-center">
+                            <p>
+                                1
+                            </p>
+                        </div>
+
+                        <div class="icon-count align-items-center align-content-center text-center">
+                            <div class="d-flex icon-plus align-items-center align-content-center text-center">
+                                <p class="align-items-center align-content-center text-center icon">+</p>
+                            </div>
+                        </div>
+
+                        <div class="col-3 pe-4 ps-0 text-end ">
+                            <small class="text-bold m-0 p-0">Rp. 149900</small>
+                        </div>
+                    </div>
+
+                </section>
+
+                <!-- summary -->
+                <section class="col-4">
+                    <div class="col box-check-2 h-50 p-3">
+                        <p class="text-bold mb-3">Shopping summary</p>
+                        <div class="row align-items-center mb-3">
+                            <div class="col">
+                                <p class="text-reguler desc-summary">
+                                    Total price
+                                </p>
+                            </div>
+                            <div class="col text-end pe-3 ps-0">
+                                <small class="text-bold">
+                                    Rp. 299800
+                                </small>
+                            </div>
+                        </div>
+                            <button class="w-100 btn-buy text-bold">Buy</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
